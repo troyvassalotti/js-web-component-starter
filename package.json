@@ -1,0 +1,24 @@
+{
+	"name": "@troyv/...",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "./index.js",
+	"exports": {
+		".": "./index.js"
+	},
+	"scripts": {
+		"format": "npx prettier --write .",
+		"lint": "eslint",
+		"start": "npx http-server ."
+	},
+	"dependencies": {
+		"lit": "latest"
+	},
+	"devDependencies": {
+		"@troyv/common-config": "latest",
+		"eslint": "latest",
+		"http-server": "latest",
+		"prettier": "latest"
+	},
+	"prettier": "@troyv/common-config/.prettierrc.json"
+}
